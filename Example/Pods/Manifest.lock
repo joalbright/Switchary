@@ -1,0 +1,14 @@
+PODS:
+  - Switchary (0.1.0)
+
+DEPENDENCIES:
+  - Switchary (from `../`)
+
+EXTERNAL SOURCES:
+  Switchary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Switchary: abcfe1daf04db7c8139e0215180a1ab00488b2b4
+
+COCOAPODS: 0.39.0

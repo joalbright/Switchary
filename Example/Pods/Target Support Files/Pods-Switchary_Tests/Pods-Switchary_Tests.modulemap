@@ -1,0 +1,6 @@
+framework module Pods_Switchary_Tests {
+  umbrella header "Pods-Switchary_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

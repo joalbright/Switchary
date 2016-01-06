@@ -1,0 +1,6 @@
+framework module Switchary {
+  umbrella header "Switchary-umbrella.h"
+
+  export *
+  module * { export * }
+}

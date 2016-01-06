@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB46D520EF5744B54CB3E9160974361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		266BAB7677A9287A01F74AD28C5ED173 /* Switchary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DD917EF3D5AF5FAD51872140AC4F45 /* Switchary.swift */; };
+		35C110448A4897FB8265020B5BAC7E0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5183A275515D0E4FAE67F9786BA4829A /* Pods-Switchary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9620C5776D6703FF62962577A17A080F /* Pods-Switchary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3CCD2353316CDB837A1D863E217C26 /* Switchary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BECABD6C1104F2BD9066B13B0917F56B /* Switchary.bundle */; };
+		A939C6FE1C3DCC99001EC587 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939C6FA1C3DC56A001EC587 /* Closure.swift */; };
+		A939C6FF1C3DCC99001EC587 /* Inline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A939C6FC1C3DC58C001EC587 /* Inline.swift */; };
+		B6641DD37AD76DB567EF5254580128C4 /* Switchary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00EA9321895C2E9EE3F82AD982928A86 /* Switchary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB70D3FB46B25D321B18D31DEB7452D2 /* Pods-Switchary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541843CE8994916999703A212001DF1C /* Pods-Switchary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C449F969849B4C47FF4A61E888DF1AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D312C52D0FE498145157C3641A55025F /* Switchary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE21521B017068858BAA580B9CB6D791 /* Switchary-dummy.m */; };
+		D60906986CC7F067281477AEB9FEC866 /* Pods-Switchary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14790043ACFD68373F2D0E7E61DDBC14 /* Pods-Switchary_Tests-dummy.m */; };
+		E919752BE0FCE18FD9658444E9DC4CD9 /* Pods-Switchary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B37E2EB7C56CCAA674970AF80DC271BF /* Pods-Switchary_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6372451BFE3388437524CD1D46F5EE5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C678B40C4B141ABCC5EE9942CF315F;
+			remoteInfo = "Switchary-Switchary";
+		};
+		6E3B3B317B067FD4719BFA36AE2808C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FC4B21C04F4463337D560AE197F725;
+			remoteInfo = Switchary;
+		};
+		A666BAC2B36E7794C65B12D07C4FD824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34FC4B21C04F4463337D560AE197F725;
+			remoteInfo = Switchary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EA9321895C2E9EE3F82AD982928A86 /* Switchary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Switchary-umbrella.h"; sourceTree = "<group>"; };
+		14790043ACFD68373F2D0E7E61DDBC14 /* Pods-Switchary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Switchary_Tests-dummy.m"; sourceTree = "<group>"; };
+		1EB47610B11BB6914704D7CCE071CB2F /* Pods-Switchary_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Switchary_Tests-resources.sh"; sourceTree = "<group>"; };
+		37DFE9B3937DF09648619E1FCF202FFA /* Pods-Switchary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Switchary_Tests.modulemap"; sourceTree = "<group>"; };
+		3D2511870A27C90C035F18621C265CB2 /* Pods-Switchary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47AF6C31DD24B8088E0608C653D00181 /* Pods_Switchary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switchary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541843CE8994916999703A212001DF1C /* Pods-Switchary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Switchary_Example-umbrella.h"; sourceTree = "<group>"; };
+		66B00A8D518ADCA7FDF1F0D1F82D4EC2 /* Pods_Switchary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switchary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Switchary.xcconfig; sourceTree = "<group>"; };
+		756D2C716AD44A40B35E79AD0A6925D9 /* Pods-Switchary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Switchary_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7C060B88705E2DD994540B178F5BFDAC /* Pods-Switchary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8806BEAC938A9214DA92E345EC6BE1A1 /* Pods-Switchary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Switchary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8A0AFFA74F945D0D691E235842D9A4E3 /* Switchary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Switchary.modulemap; sourceTree = "<group>"; };
+		92980F97B8CD9E2A37D528A4FBBFA78F /* Pods-Switchary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Switchary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		958494746F1BB45B08710EF10EA9B887 /* Pods-Switchary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Switchary_Example.modulemap"; sourceTree = "<group>"; };
+		9620C5776D6703FF62962577A17A080F /* Pods-Switchary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Switchary_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9C4395AD3BFC41BE349BA43AB1E69E47 /* Pods-Switchary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A02E1C37E8BB39B9C508026CC488CA35 /* Pods-Switchary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Switchary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A939C6FA1C3DC56A001EC587 /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		A939C6FC1C3DC58C001EC587 /* Inline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inline.swift; sourceTree = "<group>"; };
+		B37E2EB7C56CCAA674970AF80DC271BF /* Pods-Switchary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Switchary_Example-dummy.m"; sourceTree = "<group>"; };
+		B42DC01C03879B9F525FB90CAB06FB55 /* Pods-Switchary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Switchary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B467CD919A2EAF2F0CAED5A7075CC22F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BECABD6C1104F2BD9066B13B0917F56B /* Switchary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Switchary.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AECF5289E16F3A9605EB3DFA00BD8C /* Switchary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Switchary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE21521B017068858BAA580B9CB6D791 /* Switchary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Switchary-dummy.m"; sourceTree = "<group>"; };
+		D0E36442463093816BDC3C15DB9CD2F5 /* Pods-Switchary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F846D124250A7143B40272627F5259 /* Switchary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Switchary-prefix.pch"; sourceTree = "<group>"; };
+		D4C2BED16BC29E23AE31EEFEB8DEDA93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4DD917EF3D5AF5FAD51872140AC4F45 /* Switchary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Switchary.swift; sourceTree = "<group>"; };
+		EE64F0A62649B06DBBC464B23A82893D /* Pods-Switchary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Switchary_Example-resources.sh"; sourceTree = "<group>"; };
+		EE74B6AF636085C77A809D7F24F29E2F /* Pods-Switchary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Switchary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBBDD6364CA749BD3EB2D09EF65267C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540CB8BA39B8B1F3C546ACD68C6F3CC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8612BB9225C5242064CBB48EA1651817 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C110448A4897FB8265020B5BAC7E0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9885519647EB546E1257EF195FDE2F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DB46D520EF5744B54CB3E9160974361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4E3193B9636818C68A1213FF62D30CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C449F969849B4C47FF4A61E888DF1AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2892D9748D12C403AB6FE821615BBFE2 /* Pods-Switchary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B467CD919A2EAF2F0CAED5A7075CC22F /* Info.plist */,
+				958494746F1BB45B08710EF10EA9B887 /* Pods-Switchary_Example.modulemap */,
+				A02E1C37E8BB39B9C508026CC488CA35 /* Pods-Switchary_Example-acknowledgements.markdown */,
+				EE74B6AF636085C77A809D7F24F29E2F /* Pods-Switchary_Example-acknowledgements.plist */,
+				B37E2EB7C56CCAA674970AF80DC271BF /* Pods-Switchary_Example-dummy.m */,
+				8806BEAC938A9214DA92E345EC6BE1A1 /* Pods-Switchary_Example-frameworks.sh */,
+				EE64F0A62649B06DBBC464B23A82893D /* Pods-Switchary_Example-resources.sh */,
+				541843CE8994916999703A212001DF1C /* Pods-Switchary_Example-umbrella.h */,
+				D0E36442463093816BDC3C15DB9CD2F5 /* Pods-Switchary_Example.debug.xcconfig */,
+				3D2511870A27C90C035F18621C265CB2 /* Pods-Switchary_Example.release.xcconfig */,
+			);
+			name = "Pods-Switchary_Example";
+			path = "Target Support Files/Pods-Switchary_Example";
+			sourceTree = "<group>";
+		};
+		3757902B8EDC0490B7E07FFE6571ED32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8DC029AF9B08CA70A3B42986B1A63A3 /* Switchary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4CED743AAB342468BA411DC934BF8E79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4DD917EF3D5AF5FAD51872140AC4F45 /* Switchary.swift */,
+				A939C6FA1C3DC56A001EC587 /* Closure.swift */,
+				A939C6FC1C3DC58C001EC587 /* Inline.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3757902B8EDC0490B7E07FFE6571ED32 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ACCE85D0275BF38AB46C320C98FE470E /* Products */,
+				CE9090D6321090309F71CAFA17799667 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A4CF1F3EB63E02C1AA464CB5CA2C1A4E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4C2BED16BC29E23AE31EEFEB8DEDA93 /* Info.plist */,
+				8A0AFFA74F945D0D691E235842D9A4E3 /* Switchary.modulemap */,
+				67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */,
+				CE21521B017068858BAA580B9CB6D791 /* Switchary-dummy.m */,
+				D1F846D124250A7143B40272627F5259 /* Switchary-prefix.pch */,
+				00EA9321895C2E9EE3F82AD982928A86 /* Switchary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Switchary";
+			sourceTree = "<group>";
+		};
+		A8DC029AF9B08CA70A3B42986B1A63A3 /* Switchary */ = {
+			isa = PBXGroup;
+			children = (
+				CF2AB79ACBA53E901A17FB491B866826 /* Pod */,
+				A4CF1F3EB63E02C1AA464CB5CA2C1A4E /* Support Files */,
+			);
+			name = Switchary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACCE85D0275BF38AB46C320C98FE470E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AF6C31DD24B8088E0608C653D00181 /* Pods_Switchary_Example.framework */,
+				66B00A8D518ADCA7FDF1F0D1F82D4EC2 /* Pods_Switchary_Tests.framework */,
+				BECABD6C1104F2BD9066B13B0917F56B /* Switchary.bundle */,
+				C1AECF5289E16F3A9605EB3DFA00BD8C /* Switchary.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2369F55F00BECDA324E80F942ECC8B4 /* Pods-Switchary_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBBDD6364CA749BD3EB2D09EF65267C7 /* Info.plist */,
+				37DFE9B3937DF09648619E1FCF202FFA /* Pods-Switchary_Tests.modulemap */,
+				92980F97B8CD9E2A37D528A4FBBFA78F /* Pods-Switchary_Tests-acknowledgements.markdown */,
+				B42DC01C03879B9F525FB90CAB06FB55 /* Pods-Switchary_Tests-acknowledgements.plist */,
+				14790043ACFD68373F2D0E7E61DDBC14 /* Pods-Switchary_Tests-dummy.m */,
+				756D2C716AD44A40B35E79AD0A6925D9 /* Pods-Switchary_Tests-frameworks.sh */,
+				1EB47610B11BB6914704D7CCE071CB2F /* Pods-Switchary_Tests-resources.sh */,
+				9620C5776D6703FF62962577A17A080F /* Pods-Switchary_Tests-umbrella.h */,
+				7C060B88705E2DD994540B178F5BFDAC /* Pods-Switchary_Tests.debug.xcconfig */,
+				9C4395AD3BFC41BE349BA43AB1E69E47 /* Pods-Switchary_Tests.release.xcconfig */,
+			);
+			name = "Pods-Switchary_Tests";
+			path = "Target Support Files/Pods-Switchary_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CE9090D6321090309F71CAFA17799667 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2892D9748D12C403AB6FE821615BBFE2 /* Pods-Switchary_Example */,
+				B2369F55F00BECDA324E80F942ECC8B4 /* Pods-Switchary_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF2AB79ACBA53E901A17FB491B866826 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4CED743AAB342468BA411DC934BF8E79 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B7CE18229423E8BA6930C47263FEABF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB70D3FB46B25D321B18D31DEB7452D2 /* Pods-Switchary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43A15ED36784124F22948748A3D8F691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6641DD37AD76DB567EF5254580128C4 /* Switchary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C9578E4A6C732945B93E5B795FEDA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5183A275515D0E4FAE67F9786BA4829A /* Pods-Switchary_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34FC4B21C04F4463337D560AE197F725 /* Switchary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA99702CCD23B044D625D5A4D6E6496 /* Build configuration list for PBXNativeTarget "Switchary" */;
+			buildPhases = (
+				C4FDE8FF3D3F66A6A3C6BBA95FF7BD90 /* Sources */,
+				F4E3193B9636818C68A1213FF62D30CB /* Frameworks */,
+				5FD754115CDDE989AF4F84C46A6A4E16 /* Resources */,
+				43A15ED36784124F22948748A3D8F691 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C47C3B9FDA494603F4F5D06910F9906A /* PBXTargetDependency */,
+			);
+			name = Switchary;
+			productName = Switchary;
+			productReference = C1AECF5289E16F3A9605EB3DFA00BD8C /* Switchary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45C678B40C4B141ABCC5EE9942CF315F /* Switchary-Switchary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D6FBA53522E7862431A0CB95092533F /* Build configuration list for PBXNativeTarget "Switchary-Switchary" */;
+			buildPhases = (
+				C34068F5EDB528610DB10B49AA05E63F /* Sources */,
+				540CB8BA39B8B1F3C546ACD68C6F3CC7 /* Frameworks */,
+				B5411F1C61BC75723EF6A9435ABD1405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Switchary-Switchary";
+			productName = "Switchary-Switchary";
+			productReference = BECABD6C1104F2BD9066B13B0917F56B /* Switchary.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		61101D27E48559C44187FD4BA561A46D /* Pods-Switchary_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A07F807934A29AB3D4CAF9CAAE8C03B8 /* Build configuration list for PBXNativeTarget "Pods-Switchary_Tests" */;
+			buildPhases = (
+				115CEACEF7A2BD09D3444D9F93F89F7D /* Sources */,
+				9885519647EB546E1257EF195FDE2F30 /* Frameworks */,
+				97C9578E4A6C732945B93E5B795FEDA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18045467B8C5F604B5FE3A3B106AF81E /* PBXTargetDependency */,
+			);
+			name = "Pods-Switchary_Tests";
+			productName = "Pods-Switchary_Tests";
+			productReference = 66B00A8D518ADCA7FDF1F0D1F82D4EC2 /* Pods_Switchary_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A71EB112DDDB194ABC674E737D107A2F /* Pods-Switchary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06002CE1DD0124C01EB8324C7F2640D8 /* Build configuration list for PBXNativeTarget "Pods-Switchary_Example" */;
+			buildPhases = (
+				F7C64133533D53014191D89FD0422535 /* Sources */,
+				8612BB9225C5242064CBB48EA1651817 /* Frameworks */,
+				0B7CE18229423E8BA6930C47263FEABF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0984819F1E4CE995EF3B62C1575C12EA /* PBXTargetDependency */,
+			);
+			name = "Pods-Switchary_Example";
+			productName = "Pods-Switchary_Example";
+			productReference = 47AF6C31DD24B8088E0608C653D00181 /* Pods_Switchary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ACCE85D0275BF38AB46C320C98FE470E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A71EB112DDDB194ABC674E737D107A2F /* Pods-Switchary_Example */,
+				61101D27E48559C44187FD4BA561A46D /* Pods-Switchary_Tests */,
+				34FC4B21C04F4463337D560AE197F725 /* Switchary */,
+				45C678B40C4B141ABCC5EE9942CF315F /* Switchary-Switchary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FD754115CDDE989AF4F84C46A6A4E16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3CCD2353316CDB837A1D863E217C26 /* Switchary.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5411F1C61BC75723EF6A9435ABD1405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		115CEACEF7A2BD09D3444D9F93F89F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60906986CC7F067281477AEB9FEC866 /* Pods-Switchary_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34068F5EDB528610DB10B49AA05E63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FDE8FF3D3F66A6A3C6BBA95FF7BD90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266BAB7677A9287A01F74AD28C5ED173 /* Switchary.swift in Sources */,
+				D312C52D0FE498145157C3641A55025F /* Switchary-dummy.m in Sources */,
+				A939C6FF1C3DCC99001EC587 /* Inline.swift in Sources */,
+				A939C6FE1C3DCC99001EC587 /* Closure.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7C64133533D53014191D89FD0422535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E919752BE0FCE18FD9658444E9DC4CD9 /* Pods-Switchary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0984819F1E4CE995EF3B62C1575C12EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Switchary;
+			target = 34FC4B21C04F4463337D560AE197F725 /* Switchary */;
+			targetProxy = 6E3B3B317B067FD4719BFA36AE2808C3 /* PBXContainerItemProxy */;
+		};
+		18045467B8C5F604B5FE3A3B106AF81E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Switchary;
+			target = 34FC4B21C04F4463337D560AE197F725 /* Switchary */;
+			targetProxy = A666BAC2B36E7794C65B12D07C4FD824 /* PBXContainerItemProxy */;
+		};
+		C47C3B9FDA494603F4F5D06910F9906A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Switchary-Switchary";
+			target = 45C678B40C4B141ABCC5EE9942CF315F /* Switchary-Switchary */;
+			targetProxy = 6372451BFE3388437524CD1D46F5EE5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FEB4A44955F830D5EC0B43FF1A5C9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Switchary/Switchary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Switchary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Switchary/Switchary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Switchary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C41852B04A7298F95B4A613D5BFD854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Switchary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4F88591AFE259A15F35561A6A095B7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Switchary/Switchary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Switchary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Switchary/Switchary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Switchary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5997D3C43D828FCF31774E60F9DA2EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4395AD3BFC41BE349BA43AB1E69E47 /* Pods-Switchary_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Switchary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Switchary_Tests/Pods-Switchary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Switchary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		720BC038B2CB1DD2341C3AEF07A2704E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C060B88705E2DD994540B178F5BFDAC /* Pods-Switchary_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Switchary_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Switchary_Tests/Pods-Switchary_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Switchary_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		918D47B3AD15BF45698D300050B78D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2511870A27C90C035F18621C265CB2 /* Pods-Switchary_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Switchary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Switchary_Example/Pods-Switchary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Switchary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F316C30CCEFA83455281757BA5EEF110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E36442463093816BDC3C15DB9CD2F5 /* Pods-Switchary_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Switchary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Switchary_Example/Pods-Switchary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Switchary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F76A89AA1305EC1D7094C7B0BA49F34E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FFD48A7BEDDE5D0AD48D1086A0F46E /* Switchary.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Switchary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06002CE1DD0124C01EB8324C7F2640D8 /* Build configuration list for PBXNativeTarget "Pods-Switchary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F316C30CCEFA83455281757BA5EEF110 /* Debug */,
+				918D47B3AD15BF45698D300050B78D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D6FBA53522E7862431A0CB95092533F /* Build configuration list for PBXNativeTarget "Switchary-Switchary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C41852B04A7298F95B4A613D5BFD854 /* Debug */,
+				F76A89AA1305EC1D7094C7B0BA49F34E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A07F807934A29AB3D4CAF9CAAE8C03B8 /* Build configuration list for PBXNativeTarget "Pods-Switchary_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720BC038B2CB1DD2341C3AEF07A2704E /* Debug */,
+				5997D3C43D828FCF31774E60F9DA2EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA99702CCD23B044D625D5A4D6E6496 /* Build configuration list for PBXNativeTarget "Switchary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FEB4A44955F830D5EC0B43FF1A5C9B8 /* Debug */,
+				4F88591AFE259A15F35561A6A095B7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
