@@ -6,6 +6,14 @@
 [![License](https://img.shields.io/cocoapods/l/Switchary.svg?style=flat)](http://cocoapods.org/pods/Switchary)
 [![Platform](https://img.shields.io/cocoapods/p/Switchary.svg?style=flat)](http://cocoapods.org/pods/Switchary)
 
+## Roadmap
+
+- Perfomance enhancements for Switchary operators (Range, enum, etc)
+- More pattern matching inline (currently only Range and enum)
+- More closure options for assignment
+- Min, Max assignment using Range
+- Protocol for switch based initializer (my imagination is just starting on this)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -21,13 +29,13 @@ let _ = life == .Alive ? UIColor.greenColor()
       : life == .Zombie ? UIColor.grayColor()
       : UIColor.whiteColor()
 
-// switchary inline
+// Switchary assignment inline
 let _ = life ??? .Alive --> UIColor.greenColor()
              ||| .Dead --> UIColor.redColor()
              ||| .Zombie --> UIColor.grayColor()
 
 
-// switchary closure
+// Switchary assignment closure
 let _ = life ??? {
     
     switch $0 {
@@ -42,7 +50,7 @@ let _ = life ??? {
 
 enum AgeGroup { case Baby, Toddler, Kid, Preteen, Teen, Adult }
 
-// switchary range
+// Switchary Range
 let _ = 21 ??? 0...1 --> .Baby
            ||| 2...4 --> .Toddler
            ||| 5...10 --> .Kid

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Switchary"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Switchary."
+  s.summary          = "Simple library to create an assignment that works like a ternary switch"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
 
+    The library supports a few operators to build a ternary - switch assignment. Also, has built in closure assignment.
 
                        DESC
 
