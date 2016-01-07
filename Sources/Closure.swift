@@ -7,6 +7,9 @@
 //
 
 
+import Foundation
+
+
 public func ??? <T: Comparable>(lhs: T, rhs: T -> AnyObject?) -> AnyObject? {
     
     return rhs(lhs)

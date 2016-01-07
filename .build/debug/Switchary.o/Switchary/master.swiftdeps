@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.2-dev (LLVM 3ebdbb2c7e, Clang f66c5bb67b, Swift 54dcd16759)"
+options: "c835261cb08ccc0ff45db68c96d7fa51"
+build_time: [505517849, 677834000]
+inputs:
+  "/Users/RedLeader/_github/Switchary/Sources/Closure.swift": [505517687, 0]
+  "/Users/RedLeader/_github/Switchary/Sources/Inline.swift": [505517682, 0]
+  "/Users/RedLeader/_github/Switchary/Sources/Switchary.swift": [505517692, 0]

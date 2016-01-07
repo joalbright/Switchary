@@ -1,0 +1,29 @@
+client:
+  name: swift-build
+
+tools: {}
+
+targets:
+  "": [<Switchary>]
+  Switchary: [<Switchary>]
+
+commands:
+  <Switchary-swiftc>:
+    tool: swift-compiler
+    executable: "/Library/Developer/Toolchains/swift-2.2-SNAPSHOT-2016-01-06-a.xctoolchain/usr/bin/swiftc"
+    inputs: ["/Users/RedLeader/_github/Switchary/Sources/Closure.swift","/Users/RedLeader/_github/Switchary/Sources/Inline.swift","/Users/RedLeader/_github/Switchary/Sources/Switchary.swift"]
+    outputs: ["<Switchary-swiftc>","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.swiftmodule","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Closure.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Inline.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Switchary.swift.o"]
+    module-name: "Switchary"
+    module-output-path: "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.swiftmodule"
+    is-library: true
+    sources: ["/Users/RedLeader/_github/Switchary/Sources/Closure.swift","/Users/RedLeader/_github/Switchary/Sources/Inline.swift","/Users/RedLeader/_github/Switchary/Sources/Switchary.swift"]
+    objects: ["/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Closure.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Inline.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Switchary.swift.o"]
+    import-paths: ["/Users/RedLeader/_github/Switchary/.build/debug"]
+    temps-path: "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary"
+    other-args: ["-j8","-Onone","-g","-target","x86_64-apple-macosx10.10","-enable-testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk","-I","/usr/local/include"]
+  <Switchary>:
+    tool: shell
+    inputs: ["<Switchary-swiftc>","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Closure.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Inline.swift.o","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Switchary.swift.o"]
+    outputs: ["<Switchary>","/Users/RedLeader/_github/Switchary/.build/debug/Switchary.a"]
+    args: ["/bin/sh","-c","rm -f '/Users/RedLeader/_github/Switchary/.build/debug/Switchary.a'; ar cr '/Users/RedLeader/_github/Switchary/.build/debug/Switchary.a' '/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Closure.swift.o' '/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Inline.swift.o' '/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Switchary.swift.o'"]
+    description: "Linking Library:  .build/debug/Switchary.a"

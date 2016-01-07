@@ -66,8 +66,8 @@
 		9620C5776D6703FF62962577A17A080F /* Pods-Switchary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Switchary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9C4395AD3BFC41BE349BA43AB1E69E47 /* Pods-Switchary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A02E1C37E8BB39B9C508026CC488CA35 /* Pods-Switchary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Switchary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A939C6FA1C3DC56A001EC587 /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
-		A939C6FC1C3DC58C001EC587 /* Inline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inline.swift; sourceTree = "<group>"; };
+		A939C6FA1C3DC56A001EC587 /* Closure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Closure.swift; path = ../../Sources/Closure.swift; sourceTree = "<group>"; };
+		A939C6FC1C3DC58C001EC587 /* Inline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Inline.swift; path = ../../Sources/Inline.swift; sourceTree = "<group>"; };
 		B37E2EB7C56CCAA674970AF80DC271BF /* Pods-Switchary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Switchary_Example-dummy.m"; sourceTree = "<group>"; };
 		B42DC01C03879B9F525FB90CAB06FB55 /* Pods-Switchary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Switchary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B467CD919A2EAF2F0CAED5A7075CC22F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		D0E36442463093816BDC3C15DB9CD2F5 /* Pods-Switchary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Switchary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D1F846D124250A7143B40272627F5259 /* Switchary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Switchary-prefix.pch"; sourceTree = "<group>"; };
 		D4C2BED16BC29E23AE31EEFEB8DEDA93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4DD917EF3D5AF5FAD51872140AC4F45 /* Switchary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Switchary.swift; sourceTree = "<group>"; };
+		D4DD917EF3D5AF5FAD51872140AC4F45 /* Switchary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switchary.swift; path = ../../Sources/Switchary.swift; sourceTree = "<group>"; };
 		EE64F0A62649B06DBBC464B23A82893D /* Pods-Switchary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Switchary_Example-resources.sh"; sourceTree = "<group>"; };
 		EE74B6AF636085C77A809D7F24F29E2F /* Pods-Switchary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Switchary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		FBBDD6364CA749BD3EB2D09EF65267C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };

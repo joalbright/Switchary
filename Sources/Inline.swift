@@ -7,8 +7,7 @@
 //
 
 
-
-
+import Foundation
 
 
 public func ??? <T: Equatable>(lhs: T?, rhs: [(T,AnyObject)]) -> AnyObject? {

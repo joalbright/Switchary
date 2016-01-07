@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Switchary"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Simple library to create an assignment that works like a ternary switch"
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/joalbright/Switchary.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/joalbright'
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

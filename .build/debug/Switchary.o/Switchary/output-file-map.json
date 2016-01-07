@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/master.swiftdeps"
+  },
+  "/Users/RedLeader/_github/Switchary/Sources/Closure.swift": {
+    "dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Closure.d",
+    "object": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Closure.swift.o",
+    "swiftmodule": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Closure~partial.swiftmodule",
+    "swift-dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Closure.swiftdeps"
+  },
+  "/Users/RedLeader/_github/Switchary/Sources/Inline.swift": {
+    "dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Inline.d",
+    "object": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Inline.swift.o",
+    "swiftmodule": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Inline~partial.swiftmodule",
+    "swift-dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Inline.swiftdeps"
+  },
+  "/Users/RedLeader/_github/Switchary/Sources/Switchary.swift": {
+    "dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Switchary.d",
+    "object": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Sources/Switchary.swift.o",
+    "swiftmodule": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Switchary~partial.swiftmodule",
+    "swift-dependencies": "/Users/RedLeader/_github/Switchary/.build/debug/Switchary.o/Switchary/Switchary.swiftdeps"
+  }
+}
