@@ -9,9 +9,15 @@
 
 import Foundation
 
-
-public func ??? <T: Comparable>(lhs: T, rhs: T -> AnyObject?) -> AnyObject? {
+public func ??? <T: Comparable>(lhs: T, rhs: T -> Any) -> Any {
     
     return rhs(lhs)
     
 }
+
+public func ??? <T: RawRepresentable>(lhs: T, rhs: T -> Any) -> Any {
+    
+    return rhs(lhs)
+    
+}
+

@@ -73,7 +73,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				A945D6761C3F1193006CDF25 /* Package.swift */,
+				A945D67E1C40DBA0006CDF25 /* Package Manager */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Switchary */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -148,6 +148,14 @@
 				F9D3845CDE04CFE9D9FEE147 /* Pods_Switchary_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A945D67E1C40DBA0006CDF25 /* Package Manager */ = {
+			isa = PBXGroup;
+			children = (
+				A945D6761C3F1193006CDF25 /* Package.swift */,
+			);
+			name = "Package Manager";
 			sourceTree = "<group>";
 		};
 		B392762E6B33288E931F15B3 /* Pods */ = {
