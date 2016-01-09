@@ -13,7 +13,7 @@ Simple library to create an assignment that works like a ternary operator mutate
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ```swift
-enum AgeGroup: Int { case Baby, Toddler, Kid, Preteen, Teen, Adult }
+enum AgeGroup: Int { case Baby, Kid, Teen, Adult }
 
 enum LifeStatus: Int { case Alive, Dead, Zombie }
 
